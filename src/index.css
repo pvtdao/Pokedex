@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.menu-li {
+  @apply -ml-6 py-2 hover:text-cornflowerblue duration-200 text-16
+}
+
+.btn-cornflowerblue {
+  @apply after:content-[""]
+   after:absolute 
+   after:top-0 
+   after:left-0 after:h-full 
+   after:w-0 
+   after:bg-cornflowerblue after:duration-200
+   after:ease-in
+   hover:after:w-full
+   after:-z-10
+}
+
+.btn-black {
+  @apply after:content-[""]
+   after:absolute 
+   after:top-0 
+   after:left-0 after:h-full 
+   after:w-0 
+   after:bg-black after:duration-200
+   after:ease-in
+   hover:after:w-full
+   after:-z-10
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

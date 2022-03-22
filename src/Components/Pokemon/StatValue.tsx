@@ -1,0 +1,16 @@
+import React from 'react';
+
+type StatValueProps = {
+  statName: string;
+};
+
+function StatValue(props: StatValueProps) {
+  const { statName } = props;
+  return (
+    <div
+      className={`w-full min-h-[10px] border-[.1px] bg-${statName.toLowerCase()} border-semiblack mt-1`}
+    ></div>
+  );
+}
+
+export default StatValue;

@@ -1,0 +1,23 @@
+.rec.rec-arrow:hover {
+  background-color: #7c9eb7;
+}
+
+.rec.rec-arrow:hover:enabled {
+  background-color: #7c9eb7;
+}
+
+.rec.rec-arrow:focus {
+  background-color: #7c9eb7;
+}
+
+.rec.rec-arrow:focus:enabled {
+  background-color: #7c9eb7;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.info-pokemon-bg {
+  background: url(/src/assets/image/ball.png) center center no-repeat rgb(139, 190, 138);
+}
