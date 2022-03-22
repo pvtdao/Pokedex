@@ -4,7 +4,7 @@ type StatValueProps = {
   statName: string;
 };
 
-// bg - ${ statName.toLowerCase() }
+// bg - ${ statName.toLowerCase() } 
 
 function StatValue(props: StatValueProps) {
   const { statName } = props;
