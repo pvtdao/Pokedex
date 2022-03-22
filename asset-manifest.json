@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokedex/static/css/main.d072fc21.css",
+    "main.js": "/pokedex/static/js/main.0b59f5d8.js",
+    "static/media/Every-Legendary-Pokemon-Wallpapers.jpg": "/pokedex/static/media/Every-Legendary-Pokemon-Wallpapers.796cef140d2ce6f13182.jpg",
+    "static/media/ball.png": "/pokedex/static/media/ball.108a5806e3d2b34dd9ad.png",
+    "index.html": "/pokedex/index.html",
+    "main.d072fc21.css.map": "/pokedex/static/css/main.d072fc21.css.map",
+    "main.0b59f5d8.js.map": "/pokedex/static/js/main.0b59f5d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d072fc21.css",
+    "static/js/main.0b59f5d8.js"
+  ]
+}
