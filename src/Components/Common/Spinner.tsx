@@ -2,7 +2,7 @@ import React from 'react';
 
 function Spinner() {
   return (
-    <div className='bg-semiblack h-[200px] w-full'>
+    <div className='bg-semiblack w-full' style={{ height: '200px' }}>
       <div className='flex items-center justify-center h-full'>
         <svg
           role='status'

@@ -27,7 +27,12 @@ function BadgeType(props: BadgeTypeProps) {
 
   return (
     <span
-      className={`bg-${type} text-[${textSize}px] text-${color} py-[3px] px-[5px] rounded mr-[6px] border-[1px] border-semiblack select-none`}
+      className={`bg-${type} text-${color}  rounded border-semiblack select-none`}
+      style={{
+        padding: '3px 5px',
+        marginRight: '6px',
+        borderWidth: '1px',
+      }}
     >
       {upperCaseFirstLetter(type)}
     </span>
