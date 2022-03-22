@@ -19,7 +19,7 @@ function App() {
   const [loading, setLoading] = useState<boolean>(true);
   return (
     <AppContext.Provider value={{ loading, setLoading }}>
-      <div className='font-mono text-13 overflow-x-hidden min-h-screen overflow-y-auto  pt-2 bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 '>
+      <div className='font-mono text-13 overflow-x-hidden min-h-screen overflow-y-auto  pt-2 bg-yellow-200 from-yellow-200 via-yellow-200 to-yellow-300 '>
         <div className=''>
           <Navbar />
           <div className='mt-10'>
