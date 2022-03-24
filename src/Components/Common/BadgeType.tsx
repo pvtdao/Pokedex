@@ -27,7 +27,7 @@ function BadgeType(props: BadgeTypeProps) {
 
   return (
     <span
-      className={`bg-${type} text-${color}  rounded border-semiblack select-none`}
+      className={`background-${type} text-${color}  rounded border-semiblack select-none`}
       style={{
         padding: '3px 5px',
         marginRight: '6px',
