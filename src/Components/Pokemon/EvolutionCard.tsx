@@ -21,14 +21,13 @@ function EvolutionCard(props: EvolutionCardProps) {
   }, []);
 
   const typeName = props.types ? props.types[0].type.name : 'white';
-  console.log('ok: ', typeName);
 
   return (
     <>
       <div className='min-w-[200px] max-w-[200px] min-h-[200px] max-h-[200px] rounded-[50%] border-[1px] border-white bg-white p-1 flex'>
         <div
           onClick={(name) => handleSeeDetail(props.name ?? '')}
-          className={`cursor-pointer hover:bg-${typeName} duration-150 rounded-[50%] border-[1px] min-w-full max-w-full min-h-full max-h-full p-1 border-white bg-dimgray select-none`}
+          className={`cursor-pointer hover:background-fire duration-150 rounded-[50%] border-[1px] min-w-full max-w-full min-h-full max-h-full p-1 border-white bg-dimgray select-none`}
         >
           <img
             className='min-w-full max-w-full min-h-full max-h-full object-contain p-5'

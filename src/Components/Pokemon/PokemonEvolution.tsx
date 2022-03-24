@@ -24,8 +24,6 @@ function PokemonEvolution(props: PokemonEvolutionProps) {
     isEvolveLv3,
   } = useEvolutionChain(id);
 
-  console.log('test: ', useEvolutionChain(id));
-
   const imgSrc =
     firstPokemon?.sprites.other.dream_world.front_default ??
     firstPokemon?.sprites.front_default ??
@@ -65,7 +63,7 @@ function PokemonEvolution(props: PokemonEvolutionProps) {
 
               {secondPokemonList.length !== 0 && (
                 <div
-                  className={`flex-1 grid lg:grid-cols-${cols} md:grid-cols-${cols} grid-cols-1 gap-[30px] slg:mt-0 md:mt-[150px] mt-[100px]`}
+                  className={`flex-1 grid lg:grid-cols-${cols} md:grid-cols-${cols} grid-cols-${cols} gap-[30px] slg:mt-0 md:mt-[150px] mt-[100px]`}
                 >
                   {secondPokemonList.map((item, index) => {
                     const imgSrc =
