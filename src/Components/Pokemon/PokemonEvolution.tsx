@@ -63,7 +63,11 @@ function PokemonEvolution(props: PokemonEvolutionProps) {
 
               {secondPokemonList.length !== 0 && (
                 <div
-                  className={`flex-1 grid lg:grid-cols-${cols} md:grid-cols-${cols} grid-cols-${cols} gap-[30px] slg:mt-0 md:mt-[150px] mt-[100px]`}
+                  className={`flex-1 grid ${
+                    cols === 2
+                      ? 'lg:grid-cols-2 md:grid-cols-2 '
+                      : 'lg:grid-cols-1 md:grid-cols-1 '
+                  }  grid-cols-1 gap-[30px] slg:mt-0 md:mt-[150px] mt-[100px]`}
                 >
                   {secondPokemonList.map((item, index) => {
                     const imgSrc =
@@ -98,7 +102,11 @@ function PokemonEvolution(props: PokemonEvolutionProps) {
 
               {thirdPokemonList.length !== 0 && (
                 <div
-                  className={`flex-1 grid lg:grid-cols-${cols_3}  md:grid-cols-${cols_3} grid-cols-1 gap-[30px] slg:mt-0 md:mt-[150px] mt-[120px]`}
+                  className={`flex-1 grid ${
+                    cols === 2
+                      ? 'lg:grid-cols-2 md:grid-cols-2 '
+                      : 'lg:grid-cols-1 md:grid-cols-1 '
+                  } grid-cols-1 gap-[30px] slg:mt-0 md:mt-[150px] mt-[120px]`}
                 >
                   {thirdPokemonList.map((item, index) => {
                     const imgSrc =
