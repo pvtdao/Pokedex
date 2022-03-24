@@ -27,7 +27,7 @@ function Card(props: CardPokemoHomePropsType) {
       className='select-none min-h-[250px] bg-white p-3 rounded-xl md:w-52 lg-w-full w-full  cursor-pointer border-[0.5px] border-semiblack group'
     >
       <div
-        className={`group-hover:bg-${pokeType} flex justify-center duration-150 bg-whitesmoke max-h-[200px]`}
+        className={`group-hover:background-${pokeType} flex justify-center duration-150 bg-whitesmoke max-h-[200px]`}
       >
         <img
           src={
