@@ -31,6 +31,88 @@
    after:-z-10
 }
 
+.bg-fire {
+  background: #fd7d24;
+}
+
+.bg-poison {
+  background: #b97fc9;
+}
+
+.bg-grass {
+  background: #9bcc50;
+}
+
+.bg-water {
+  background: #4592c4;
+  @apply text-white
+}
+
+.bg-bug {
+  background: #729f3f;
+  @apply text-white
+}
+
+.bg-normal {
+  background: #a4acaf;
+}
+
+.bg-electric {
+  background: #eed535;
+}
+
+.bg-fairy {
+  background: #fdb9e9;
+}
+
+.bg-fighting {
+  background: #d56723;
+  @apply text-white
+}
+
+.bg-psychic {
+  background: #f366b9;
+  @apply text-white
+}
+
+.bg-fying {
+  background: #e4f4f5;
+  @apply text-white
+}
+
+.bg-ground {
+  background: #b38e82;
+}
+
+.bg-rock {
+  background: #a38c21;
+  @apply text-white
+}
+
+.bg-steel {
+  background: #9eb7b8;
+  @apply text-white
+}
+
+.bg-ice {
+  background:#51c4e7;
+}
+
+.bg-ghost {
+  background: #7b62a3;
+  @apply text-white
+}
+
+.bg-dragon {
+  background: #177258;
+  @apply text-white
+}
+
+.bg-dark {
+  background: #707070;
+  @apply text-white
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
