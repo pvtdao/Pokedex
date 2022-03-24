@@ -112,6 +112,30 @@
   @apply text-white
 }
 
+.background-white{
+  background: #fff;
+}
+
+.background-hp{
+  background: #ff0000;
+}
+.background-attack {
+  background: #f08030;
+}
+.background-defense {
+  background: #f8d030;
+}
+.background-special-attack {
+background: #6890f0;
+}
+.background-special-defense {
+background: #78c850;
+}
+.background-speed {
+background: #f85888;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
